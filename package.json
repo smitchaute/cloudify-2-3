@@ -1,0 +1,28 @@
+{
+  "name": "shopify-cloudify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smitchaute/Shopify-Cloudify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smitchaute/Shopify-Cloudify/issues"
+  },
+  "homepage": "https://github.com/smitchaute/Shopify-Cloudify#readme",
+  "dependencies": {
+    "@shopify/shopify-api": "^8.0.2",
+    "axios": "^1.6.5",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "localtunnel": "^2.0.2",
+    "nodemon": "^3.0.1"
+  }
+}
